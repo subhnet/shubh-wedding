@@ -1,8 +1,40 @@
 import React from 'react'
+import '../App.css';
 
 export const CoupleDetails = () => {
     return (
-        <section class="wedding-couple-section section-padding" id="couple">
+        <section class="section-features js--section-features" id="features">
+            <div class="row">
+                <div>
+                    <h2>Know about our peeps</h2>
+                    {/* <p class="long-copy">
+                        Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
+                    </p> */}
+                </div>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-infinite-outline icon-big"></i>
+                    <h3>GROOM</h3>
+                    <p>
+                       Hi i'm Subhransu maharana.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-stopwatch-outline icon-big"></i>
+                    <h3>BRIDE</h3>
+                    <p>
+                    Hi i'm Shubhangi maharana.
+                    </p>
+                </div>
+            </div>
+            <script src="resources/js/script.js"></script>
+        </section>
+        
+    )
+}
+{/* <section class="wedding-couple-section section-padding" id="couple">
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
@@ -31,6 +63,4 @@ export const CoupleDetails = () => {
                     </div>
                 </div>
             </div>
-        </section>
-    )
-}
+        </section> */}
