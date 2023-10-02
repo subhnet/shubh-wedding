@@ -1,12 +1,13 @@
 import React from 'react'
 
-export const Gallery = () => {
+export function Gallery () {
   return (
+    
     <section class="section-meals">
     <ul class="meals-showcase clearfix">
         <li>
             <figure class="meal-photo">
-                <img src="resources/img/1.jpg" alt="" />
+                <img src="../assets/images/pic2.jpg" alt="" />
             </figure>
         </li>
         <li>
@@ -50,3 +51,4 @@ export const Gallery = () => {
 </section>
   )
 }
+export default Gallery;

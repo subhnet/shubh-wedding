@@ -6,9 +6,6 @@ export const EventDetails = () => {
             <div class="row">
                 <div>
                     <h2>Events</h2>
-                    {/* <p class="long-copy">
-                        Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
-                    </p> */}
                 </div>
             </div>
             
@@ -17,7 +14,7 @@ export const EventDetails = () => {
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>GROOM</h3>
                     <p>
-                      Come let's prepare to bring her.
+                      Come let's prepare to bring her.jfcnhrmhueiromahfr
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">

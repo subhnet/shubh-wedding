@@ -1,7 +1,8 @@
 import React from 'react'
 import Bride from '../pages/Bride';
-import { Header } from '../components/Header'
-import { CoupleDetails } from '../components/CoupleDetails'
+import { Header } from '../components/Header';
+import { Display } from '../components/Display';
+import { CoupleDetails } from '../components/CoupleDetails';
 import { EventDetails } from '../components/EventDetails';
 import { Gallery } from '../components/Gallery';
 
@@ -11,7 +12,8 @@ export const Home = () => {
 
       <Header></Header>
       <CoupleDetails />
-      <Gallery />
+      <Display />
+      {/* <Gallery /> */}
       <EventDetails />
       
 

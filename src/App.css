@@ -51,14 +51,15 @@ h1 {
   letter-spacing: 1px;
 }
 header{
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/slide-1.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/slide-1.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic1.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
 }
 .hero-text-box {
+  /* font-family: "Great Vibes", cursive; */
   position: absolute;
   width: 1140px;
   top: 50%;
@@ -67,6 +68,49 @@ header{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.hero-text-box .text  {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 90px;
+  font-size: 5rem;
+  color: #fff;
+  margin: 0 0 0.4em;
+  position: relative;
+  z-index: 10;
+}
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 70px;
+    font-size: 3.88889rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 55px;
+    font-size: 3.05556rem;
+  }
+}
+.horizontal-line {
+  border: 1px solid #fff; /* Adjust the border properties as needed */
+  margin: 0px auto;
+  width: 50%;
+}
+.invitation {
+  text-align: center;
+  padding: 20px;
+}
+.invitation-text {
+  font-size: 70%;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px 4px rgba(245, 111, 71, 0.5);
+  margin: 10px;
+  padding: 0px;
+  color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -115,23 +159,23 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #67eea6;
-    border: 1px solid #e67e22;
+    background-color: #054c52;
+    border: 1px solid #c06bb5;
     color: #fff;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #c06bb5;
+    color:#fff;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #e4a32c;
 }
 
 .btn-full:hover,
@@ -182,4 +226,516 @@ input[type=submit]:active {
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
+}
+
+
+/*-------------------------------*/
+/*----------TIMER--------------------*/
+/*------------------------------*/
+.timer{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 100vh;
+}
+.timer-text{
+  font-size: 100%;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px 4px rgba(245, 111, 71, 0.5);
+  margin: 10px;
+  padding: 0px;
+  color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+
+.show-counter {
+  padding: 0.5rem;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+
+/*--------------------------------------------------------------
+#0.6	wedding-couple-section
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#0.6	wedding-couple-section
+--------------------------------------------------------------*/
+.wedding-couple-section .gb {
+  overflow: hidden;
+  background-color: #EFF5F3;
+}
+
+.wedding-couple-section .gb > div {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .gb > div {
+    width: 100%;
+    float: none;
+  }
+}
+
+.wedding-couple-section .img-holder img {
+  width: 100%;
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.event .img-holder img {
+  width: 100%;
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder img {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.wedding-couple-section .details {
+  padding: 50px 55px;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details {
+    display: table;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .details {
+    padding: 40px 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details {
+    padding: 40px 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details > .details-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.wedding-couple-section .details h3 {
+  font-size: 26px;
+  font-size: 1.44444rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0 0 0.7em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details h3 {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details h3 {
+    font-size: 20px;
+    font-size: 1.11111rem;
+  }
+}
+
+.wedding-couple-section .details .signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  font-size: 1.55556rem;
+  display: block;
+  padding-left: 25px;
+  margin-top: 15px;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .signature {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+.wedding-couple-section .details .signature:before {
+  content: "";
+  background-color: #000;
+  width: 15px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wedding-couple-section .details .social-links {
+  margin-top: 20px;
+}
+
+.wedding-couple-section .details .social-links > li + li {
+  margin-left: 3px;
+}
+
+.wedding-couple-section .details .social-links a {
+  background-color: #7cafa5;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .social-links a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    font-size: 0.72222rem;
+  }
+}
+
+.wedding-couple-section .details .social-links a:hover {
+  background-color: #5e9a8e;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .bride {
+    text-align: right;
+  }
+  .wedding-couple-section .bride .signature {
+    padding-right: 25px;
+  }
+  .wedding-couple-section .bride .signature:before {
+    left: auto;
+    right: 0;
+  }
+  .wedding-couple-section .bride .social-links {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .img-holder,
+  .wedding-couple-section .details {
+    height: auto !important;
+  }
+  .wedding-couple-section .bride {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder {
+    background: none !important;
+  }
+}
+.wedding-couple-section .gb {
+  overflow: hidden;
+  background-color: #EFF5F3;
+}
+
+.wedding-couple-section .gb > div {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .gb > div {
+    width: 100%;
+    float: none;
+  }
+}
+.image{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic1.jpg);
+}
+.wedding-couple-section .img-holder img {
+  width: 100%;
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.event .img-holder img {
+  width: 100%;
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder img {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.wedding-couple-section .details {
+  padding: 50px 55px;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details {
+    display: table;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .details {
+    padding: 40px 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details {
+    padding: 40px 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details > .details-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.wedding-couple-section .details h3 {
+  font-size: 26px;
+  font-size: 1.44444rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0 0 0.7em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details h3 {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details h3 {
+    font-size: 20px;
+    font-size: 1.11111rem;
+  }
+}
+
+.wedding-couple-section .details .signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  font-size: 1.55556rem;
+  display: block;
+  padding-left: 25px;
+  margin-top: 15px;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .signature {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+.wedding-couple-section .details .signature:before {
+  content: "";
+  background-color: #000;
+  width: 15px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wedding-couple-section .details .social-links {
+  margin-top: 20px;
+}
+
+.wedding-couple-section .details .social-links > li + li {
+  margin-left: 3px;
+}
+
+.wedding-couple-section .details .social-links a {
+  background-color: #7cafa5;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .social-links a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    font-size: 0.72222rem;
+  }
+}
+
+.wedding-couple-section .details .social-links a:hover {
+  background-color: #5e9a8e;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .bride {
+    text-align: right;
+  }
+  .wedding-couple-section .bride .signature {
+    padding-right: 25px;
+  }
+  .wedding-couple-section .bride .signature:before {
+    left: auto;
+    right: 0;
+  }
+  .wedding-couple-section .bride .social-links {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .img-holder,
+  .wedding-couple-section .details {
+    height: auto !important;
+  }
+  .wedding-couple-section .bride {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder {
+    background: none !important;
+  }
+}
+/*--------------------------------------------------------------
+#0.2    Global Elements
+--------------------------------------------------------------*/
+.page-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.wow {
+  visibility: hidden;
+}
+
+.fi:before {
+  margin: 0;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+
+@media (max-width: 1199px) {
+  .section-padding {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+}
+.social-links {
+  overflow: hidden;
+}
+
+.social-links li {
+  float: left;
+}
+
+.social-links li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links li a:hover {
+  background-color: #5e9a8e;
 }
