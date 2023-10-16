@@ -31,7 +31,7 @@ export const Header = () => {
                   backgroundImage: `url(${slide1Image})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center center',
-                  width: '1980px',
+                  width: '2550px',
                   position: 'relative',
                   left: '0px',
                   top: '0px',
