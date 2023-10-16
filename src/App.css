@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,1201 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+} */
+/* h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+} */
+/* header{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/pic1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+} */
+.hero-text-box {
+  /* font-family: "Great Vibes", cursive; */
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hero-text-box .text {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 90px;
+  font-size: 5rem;
+  color: #fff;
+  margin: 0 0 0.4em;
+  position: relative;
+  z-index: 10;
+}
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 70px;
+    font-size: 3.88889rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 55px;
+    font-size: 3.05556rem;
+  }
+}
+.horizontal-line {
+  border: 1px solid #fff; /* Adjust the border properties as needed */
+  margin: 0px auto;
+  width: 50%;
+}
+.invitation {
+  text-align: center;
+  padding: 20px;
+}
+.invitation-text {
+  font-size: 70%;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px 4px rgba(245, 111, 71, 0.5);
+  margin: 10px;
+  padding: 0px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* section {
+  padding: 80px 0;
+} */
+.section-features {
+  margin-bottom: 30px;
+}
+.section-events {
+  padding: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"] {
+  background-color: #054c52;
+  border: 1px solid #c06bb5;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #c06bb5;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #e4a32c;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* GALLERY */
+/* ----------------------------------------------- */
+/* .meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+} */
+
+/*-------------------------------*/
+/*----------TIMER--------------------*/
+/*------------------------------*/
+.timer {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./assets/images/pic3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./assets/images/pic3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 100vh;
+}
+.timer-text {
+  font-size: 100%;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px 4px rgba(245, 111, 71, 0.5);
+  margin: 10px;
+  padding: 0px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+
+.show-counter {
+  padding: 0.5rem;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/*--------------------------------------------------------------
+#0.6	wedding-couple-section
+--------------------------------------------------------------*/
+.wedding-couple-section .gb {
+  overflow: hidden;
+  background-color: #eff5f3;
+}
+
+.wedding-couple-section .gb > div {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .gb > div {
+    width: 100%;
+    float: none;
+  }
+}
+
+.wedding-couple-section .img-holder img {
+  width: 100%;
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.event .img-holder img {
+  width: 100%;
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder img {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.wedding-couple-section .details {
+  padding: 50px 55px;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details {
+    display: table;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .details {
+    padding: 40px 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details {
+    padding: 40px 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details > .details-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.wedding-couple-section .details h3 {
+  font-size: 26px;
+  font-size: 1.44444rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0 0 0.7em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details h3 {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details h3 {
+    font-size: 20px;
+    font-size: 1.11111rem;
+  }
+}
+
+.wedding-couple-section .details .signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  font-size: 1.55556rem;
+  display: block;
+  padding-left: 25px;
+  margin-top: 15px;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .signature {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+.wedding-couple-section .details .signature:before {
+  content: "";
+  background-color: #000;
+  width: 15px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wedding-couple-section .details .social-links {
+  margin-top: 20px;
+}
+
+.wedding-couple-section .details .social-links > li + li {
+  margin-left: 3px;
+}
+
+.wedding-couple-section .details .social-links a {
+  background-color: #7cafa5;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .social-links a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    font-size: 0.72222rem;
+  }
+}
+
+.wedding-couple-section .details .social-links a:hover {
+  background-color: #5e9a8e;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .bride {
+    text-align: right;
+  }
+  .wedding-couple-section .bride .signature {
+    padding-right: 25px;
+  }
+  .wedding-couple-section .bride .signature:before {
+    left: auto;
+    right: 0;
+  }
+  .wedding-couple-section .bride .social-links {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .img-holder,
+  .wedding-couple-section .details {
+    height: auto !important;
+  }
+  .wedding-couple-section .bride {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder {
+    background: none !important;
+  }
+}
+.wedding-couple-section .gb {
+  overflow: hidden;
+  background-color: #eff5f3;
+}
+
+.wedding-couple-section .gb > div {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .gb > div {
+    width: 100%;
+    float: none;
+  }
+}
+.image {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./assets/images/pic1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./assets/images/pic1.jpg);
+}
+.wedding-couple-section .img-holder img {
+  width: 100%;
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.event .img-holder img {
+  width: 100%;
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder img {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.wedding-couple-section .details {
+  padding: 50px 55px;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details {
+    display: table;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .details {
+    padding: 40px 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details {
+    padding: 40px 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .details > .details-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.wedding-couple-section .details h3 {
+  font-size: 26px;
+  font-size: 1.44444rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0 0 0.7em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details h3 {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-couple-section .details h3 {
+    font-size: 20px;
+    font-size: 1.11111rem;
+  }
+}
+
+.wedding-couple-section .details .signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  font-size: 1.55556rem;
+  display: block;
+  padding-left: 25px;
+  margin-top: 15px;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .signature {
+    font-size: 22px;
+    font-size: 1.22222rem;
+  }
+}
+
+.wedding-couple-section .details .signature:before {
+  content: "";
+  background-color: #000;
+  width: 15px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wedding-couple-section .details .social-links {
+  margin-top: 20px;
+}
+
+.wedding-couple-section .details .social-links > li + li {
+  margin-left: 3px;
+}
+
+.wedding-couple-section .details .social-links a {
+  background-color: #7cafa5;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 1199px) {
+  .wedding-couple-section .details .social-links a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    font-size: 0.72222rem;
+  }
+}
+
+.wedding-couple-section .details .social-links a:hover {
+  background-color: #5e9a8e;
+}
+
+@media screen and (min-width: 992px) {
+  .wedding-couple-section .bride {
+    text-align: right;
+  }
+  .wedding-couple-section .bride .signature {
+    padding-right: 25px;
+  }
+  .wedding-couple-section .bride .signature:before {
+    left: auto;
+    right: 0;
+  }
+  .wedding-couple-section .bride .social-links {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 991px) {
+  .wedding-couple-section .img-holder,
+  .wedding-couple-section .details {
+    height: auto !important;
+  }
+  .wedding-couple-section .bride {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 470px) {
+  .wedding-couple-section .img-holder {
+    background: none !important;
+  }
+}
+/*--------------------------------------------------------------
+#0.2    Global Elements
+--------------------------------------------------------------*/
+.page-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.wow {
+  visibility: hidden;
+}
+
+.fi:before {
+  margin: 0;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+
+@media (max-width: 1199px) {
+  .section-padding {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+}
+.social-links {
+  overflow: hidden;
+}
+
+.social-links li {
+  float: left;
+}
+
+.social-links li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links li a:hover {
+  background-color: #5e9a8e;
+}
+
+/*** header style 2 ****/
+/*--------------------------------------------------------------
+#0.4	hero slider
+--------------------------------------------------------------*/
+.hero {
+  position: relative;
+  height: calc(100vh - 90px);
+  min-height: 700px;
+  overflow: hidden;
+  /** slider controls **/
+  /*** arrow hover ***/
+}
+
+@media (max-width: 1199px) {
+  .hero {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    min-height: 500px;
+  }
+}
+
+.hero .slide-item {
+  height: 100vh;
+  min-height: 700px;
+  position: relative;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .hero .slide-item {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .slide-item {
+    min-height: 500px;
+  }
+}
+
+.hero .slide-item .slider-bg {
+  display: none;
+}
+
+.hero .slide-item:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero .slide-item:focus {
+  outline: none;
+}
+
+.hero .slide-item .container {
+  height: 100%;
+  display: table;
+}
+
+.hero .slide-item .row {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero .slick-prev,
+.hero .slick-next {
+  background-color: rgba(94, 154, 142, 0.6);
+  width: 50px;
+  height: 50px;
+  z-index: 111;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
+  box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.hero .slick-prev:hover,
+.hero .slick-next:hover {
+  background-color: rgba(94, 154, 142, 0.8);
+  -webkit-box-shadow: 0 0 0 5px #5e9a8e;
+  box-shadow: 0 0 0 5px #5e9a8e;
+}
+
+@media (max-width: 1199px) {
+  .hero .slick-prev,
+  .hero .slick-next {
+    width: 45px;
+    height: 45px;
+    -webkit-box-shadow: 0 0 0 3px rgba(94, 154, 142, 0.9);
+    box-shadow: 0 0 0 3px rgba(94, 154, 142, 0.9);
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .slick-prev,
+  .hero .slick-next {
+    width: 35px;
+    height: 35px;
+    -webkit-box-shadow: 0 0 0 3px rgba(94, 154, 142, 0.9);
+    box-shadow: 0 0 0 3px rgba(94, 154, 142, 0.9);
+  }
+}
+
+.hero .slick-prev:before,
+.hero .slick-next:before {
+  font-size: 25px;
+  font-size: 1.38889pxrem;
+}
+
+@media (max-width: 991px) {
+  .hero .slick-prev:before,
+  .hero .slick-next:before {
+    font-size: 20px;
+    font-size: 1.11111pxrem;
+  }
+}
+
+.hero .slick-prev {
+  left: 0;
+}
+
+.hero .slick-prev:before {
+  font-family: "FontAwesome";
+  content: "\f104";
+  opacity: 1;
+}
+
+.hero .slick-next {
+  right: 0;
+}
+
+.hero .slick-next:before {
+  font-family: "FontAwesome";
+  content: "\f105";
+  opacity: 1;
+}
+
+.hero:hover .slick-prev,
+.hero:hover .slick-next {
+  opacity: 1;
+}
+
+.hero:hover .slick-prev {
+  left: 20px;
+}
+
+.hero:hover .slick-next {
+  right: 20px;
+}
+
+.hero .wedding-announcement {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 101;
+  text-align: center;
+  display: table;
+  /*** save the date ***/
+  /*** popup save the date circle ***/
+}
+
+.hero .wedding-announcement .couple-name-merried-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero .wedding-announcement .couple-name-merried-text h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 90px;
+  font-size: 5rem;
+  color: #fff;
+  margin: 0 0 0.4em;
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 70px;
+    font-size: 3.88889rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 55px;
+    font-size: 3.05556rem;
+  }
+}
+
+.hero .wedding-announcement .married-text h4 {
+  font-size: 26px;
+  font-size: 1.44444rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  display: inline;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 12px 20px;
+  position: relative;
+  z-index: 10;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .married-text h4 {
+    font-size: 20px;
+    font-size: 1.11111rem;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .married-text h4 {
+    font-size: 17px;
+    font-size: 0.94444rem;
+    padding: 8px 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero .wedding-announcement .married-text h4 {
+    letter-spacing: 1px;
+  }
+}
+
+.hero .wedding-announcement .couple-name-merried-text h2,
+.hero .wedding-announcement .married-text h4 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.hero .wedding-announcement .couple-name-merried-text i {
+  font-size: 450px;
+  color: rgba(94, 154, 142, 0.7);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hero .wedding-announcement .save-the-date {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  bottom: -350px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: 1s 2.3s ease-in-out;
+  -o-transition: 1s 2.3s ease-in-out;
+  transition: 1s 2.3s ease-in-out;
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .save-the-date {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .save-the-date {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+.hero .wedding-announcement .save-the-date:before,
+.hero .wedding-announcement .save-the-date:after {
+  content: "";
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.hero .wedding-announcement .save-the-date:before {
+  background-color: rgba(94, 154, 142, 0.3);
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+  -webkit-animation: save-the-date-pulse 1s infinite;
+  animation: save-the-date-pulse 1s infinite;
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .save-the-date:before {
+    width: 108%;
+    height: 108%;
+    left: -4%;
+    top: -4%;
+  }
+}
+
+.hero .wedding-announcement .save-the-date:after {
+  background-color: rgba(94, 154, 142, 0.7);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.hero .wedding-announcement .save-the-date h4 {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  font-size: 2.22222rem;
+  color: #fff;
+  margin: 55px 0 0.2em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .save-the-date h4 {
+    font-size: 35px;
+    font-size: 1.94444rem;
+    margin: 45px 0 0.15em;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .save-the-date h4 {
+    font-size: 28px;
+    font-size: 1.55556rem;
+    margin: 30px 0 0.15em;
+  }
+}
+
+.hero .wedding-announcement .save-the-date .date {
+  font-size: 20px;
+  font-size: 1.11111rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .save-the-date .date {
+    font-size: 18px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .save-the-date .date {
+    font-size: 16px;
+    font-size: 0.88889rem;
+  }
+}
+
+.hero .wedding-announcement .popup-save-the-date {
+  bottom: -185px;
+  opacity: 1;
+  z-index: 50;
+}
+
+@media (max-width: 1199px) {
+  .hero .wedding-announcement .popup-save-the-date {
+    bottom: -180px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .wedding-announcement .popup-save-the-date {
+    bottom: -170px;
+  }
+}
+
+@-webkit-keyframes save-the-date-pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.95, 0.95, 0.95);
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes save-the-date-pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.95, 0.95, 0.95);
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.static-hero {
+  background: url("./assets/images/slide-1.jpg") center center/cover no-repeat
+    local;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.static-hero:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.home-shade .static-hero {
+  opacity: 0.4;
+  z-index: 101;
+}
+
+.couple-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.royal-button {
+  background-color: #8b0000; /* Deep red background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uppercase text */
+  cursor: pointer; /* Cursor on hover */
+  margin: 10px; /* Margin around the button */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.royal-button:hover {
+  background-color: #6b0000; /* Darker red on hover */
 }
