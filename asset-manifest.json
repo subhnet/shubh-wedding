@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/shubh-wedding/static/css/main.b3e7beeb.css",
-    "main.js": "/shubh-wedding/static/js/main.29d51475.js",
+    "main.css": "/shubh-wedding/static/css/main.689142b0.css",
+    "main.js": "/shubh-wedding/static/js/main.3efb3eb8.js",
     "static/js/787.4d42e130.chunk.js": "/shubh-wedding/static/js/787.4d42e130.chunk.js",
     "static/media/pic3.jpg": "/shubh-wedding/static/media/pic3.b72e32b64397539c251f.jpg",
+    "static/media/pic4.png": "/shubh-wedding/static/media/pic4.8471c0d4c3bf0a141094.png",
+    "static/media/pic5.png": "/shubh-wedding/static/media/pic5.3d49e7c892f58618852c.png",
     "static/media/pic1.jpg": "/shubh-wedding/static/media/pic1.c4da763e9644f91e0468.jpg",
     "static/media/slide-1.jpg": "/shubh-wedding/static/media/slide-1.7d94e9dace84fc8b60a7.jpg",
     "static/media/slide-2.jpg": "/shubh-wedding/static/media/slide-2.26051964bbdd77a66596.jpg",
     "index.html": "/shubh-wedding/index.html",
-    "main.b3e7beeb.css.map": "/shubh-wedding/static/css/main.b3e7beeb.css.map",
-    "main.29d51475.js.map": "/shubh-wedding/static/js/main.29d51475.js.map",
+    "main.689142b0.css.map": "/shubh-wedding/static/css/main.689142b0.css.map",
+    "main.3efb3eb8.js.map": "/shubh-wedding/static/js/main.3efb3eb8.js.map",
     "787.4d42e130.chunk.js.map": "/shubh-wedding/static/js/787.4d42e130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3e7beeb.css",
-    "static/js/main.29d51475.js"
+    "static/css/main.689142b0.css",
+    "static/js/main.3efb3eb8.js"
   ]
 }
