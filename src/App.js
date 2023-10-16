@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './pages/Home';
 import Slider from './sections/Slider';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'animate.css';
 
 function App() {
 
@@ -13,7 +15,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/shubh-wedding">
       <div className="App" style={appStyle}>
         <main className="App-main">
           <Switch>
@@ -22,7 +24,7 @@ function App() {
           </Switch>
         </main>
       </div>
-        </Router>
+    </Router>
   );
 }
 

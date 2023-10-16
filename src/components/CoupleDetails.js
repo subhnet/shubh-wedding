@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css';
-
+import brideImage1 from '../assets/images/pic4.png';
+import groomImage1 from '../assets/images/pic5.png';
 export const CoupleDetails = () => {
     return (
         <section class="wedding-couple-section section-padding" id="couple">
@@ -8,8 +9,15 @@ export const CoupleDetails = () => {
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="gb groom">
-                            <div class="img-holder wow fadeInLeftSlow" >
-                                <div className='image'/> 
+
+                            <div className="img-holder wow fadeInLeftSlow" style={{
+                                backgroundImage: `url(${groomImage1})`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center center',
+                                visibility: 'visible',
+                                animationName: 'fadeInLeftSlow',
+                            }}>
+                                <img src={brideImage1} alt="" />
                             </div>
                             <div class="details">
                                 <div class="details-inner">
@@ -39,13 +47,20 @@ export const CoupleDetails = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="img-holder wow fadeInRightSlow" >
+                            <div className="img-holder wow fadeInLeftSlow" style={{
+                                backgroundImage: `url(${brideImage1})`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center center',
+                                visibility: 'visible',
+                                animationName: 'fadeInLeftSlow',
+                            }}>
+                                <img src={groomImage1} alt="" />
                             </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         // <section class="section-features js--section-features" id="features">
@@ -54,7 +69,7 @@ export const CoupleDetails = () => {
         //             <h2>Know about our peeps</h2>
         //         </div>
         //     </div>
-            
+
         //     <div class="row js--wp-1">
         //         <div class="col span-1-of-4 box">
         //             <i class="ion-ios-infinite-outline icon-big"></i>
@@ -73,6 +88,6 @@ export const CoupleDetails = () => {
         //     </div>
         //     <script src="resources/js/script.js"></script>
         // </section>
-        
+
     )
 }
